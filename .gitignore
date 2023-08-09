@@ -19,3 +19,5 @@
 
 # Go workspace file
 go.work
+.gitignore
+db-data/postgres/pg_stat_tmp/*.stat
