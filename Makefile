@@ -14,7 +14,7 @@ build:
 ## run: builds and runs the application
 run: build
 	@echo "Starting..."
-	@env DSN=${DSN} REDIS=${REDIS} ./${BINARY_NAME} &
+	@env DSN=${DSN} REDIS=${REDIS} ./${BINARY_NAME}
 	@echo "Started!"
 
 ## clean: runs go clean and deletes binaries
@@ -30,8 +30,8 @@ start: run
 ## stop: stops the running application
 stop:
 	@echo "Stopping..."
-	@-pkill -SIGTERM -f "./${BINARY_NAME}"
-	@echo "Stopped!"
+	@taskkill /IM ${BINARY_NAME} /F
+	@echo Stopped back end
 
 ## restart: stops and starts the application
 restart: stop start
