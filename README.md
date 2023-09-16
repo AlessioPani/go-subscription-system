@@ -8,3 +8,7 @@ Used dependencies and tools:
 - PostgreSQL
 - Redis 
 - Makefile
+
+
+
+> Please note that the Makefile provided in this repository is only compatible with Git Bash on Windows.
