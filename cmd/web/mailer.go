@@ -33,7 +33,7 @@ type Message struct {
 	Template    string
 }
 
-// is a function to listen for messages on the MailerChan
+// sendMail is a function to listen for messages on the MailerChan
 func (m *Mail) sendMail(msg Message, errorChan chan error) {
 	if msg.Template == "" {
 		msg.Template = "mail"
