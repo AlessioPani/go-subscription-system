@@ -9,10 +9,13 @@ require (
 	github.com/gomodule/redigo v1.8.0
 	github.com/jackc/pgconn v1.14.3
 	github.com/jackc/pgx/v4 v4.18.2
-	golang.org/x/crypto v0.20.0
+	golang.org/x/crypto v0.21.0
 )
 
-require github.com/xhit/go-simple-mail/v2 v2.16.0
+require (
+	github.com/vanng822/go-premailer v1.20.2
+	github.com/xhit/go-simple-mail/v2 v2.16.0
+)
 
 require (
 	github.com/PuerkitoBio/goquery v1.5.1 // indirect
@@ -27,7 +30,6 @@ require (
 	github.com/jackc/pgtype v1.14.0 // indirect
 	github.com/toorop/go-dkim v0.0.0-20201103131630-e1cd1a0a5208 // indirect
 	github.com/vanng822/css v1.0.1 // indirect
-	github.com/vanng822/go-premailer v1.20.2 // indirect
-	golang.org/x/net v0.21.0 // indirect
+	golang.org/x/net v0.23.0 // indirect
 	golang.org/x/text v0.14.0 // indirect
 )
