@@ -24,3 +24,4 @@ db-data/postgres/pg_stat/*.stat
 db-data/postgres/pg_wal/*.*
 db-data/postgres/global/pg_control
 .vscode/settings.json
+.DS_Store
