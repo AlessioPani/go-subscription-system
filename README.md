@@ -1,5 +1,5 @@
 # go-subscription-system
-This repository contains a Subscription System written in Go with its goroutines and WaitGroups to implement concurrency.
+This repository contains a Subscription System written in Go to delve into concurrency with built-in WaitGroups and goroutines.
 
 Used dependencies and tools:
 - go-chi router
@@ -8,7 +8,3 @@ Used dependencies and tools:
 - PostgreSQL
 - Redis 
 - Makefile
-
-
-
-> Please note that the Makefile provided in this repository is only compatible with Git Bash on Windows.
